@@ -23,8 +23,11 @@
             }
  }
 
- $movie1 = new Movie()
+ $movie1 = new Movie("Avatar", "Cameron", "Fantasy", 2009);
+ //var_dump($movie1);
 
+ $movie2 = new Movie("Inception", "Nolan", "ScienceDrama", 2010);
+//var_dump($movie2);
 
 
 
